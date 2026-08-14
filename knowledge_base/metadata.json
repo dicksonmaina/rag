@@ -1,0 +1,63 @@
+{
+  "documents": {
+    "657ebfe8-2492-4394-96cc-3c8768637dcb": {
+      "name": "Test Note",
+      "type": "note",
+      "tags": [
+        "test"
+      ],
+      "created_at": "2026-08-07T19:32:58.020121",
+      "size": 33
+    },
+    "dbaa1913-9d7c-42ea-b1b0-d8fd4ce4dd46": {
+      "name": "OSCP AD 3 Lab Notes",
+      "type": "notes",
+      "tags": [
+        "oscp",
+        "active-directory",
+        "enumeration",
+        "pivoting",
+        "lateral-movement",
+        "privilege-escalation"
+      ],
+      "created_at": "2026-08-09T15:21:28.120621",
+      "size": 657
+    },
+    "fc24eac4-abfc-4c80-83c6-f9d6f182b26b": {
+      "name": "C:\\Users\\user\\knowledge\\rag\\documents\\api_guide.txt",
+      "type": "indexed_file",
+      "tags": [
+        "auto-indexed"
+      ],
+      "created_at": "2026-08-09T21:08:45.703794",
+      "size": 65
+    },
+    "8bef6690-35cd-49a4-a11b-30a2cbbd9633": {
+      "name": "C:\\Users\\user\\knowledge\\rag\\documents\\enterprise_knowledge.txt",
+      "type": "indexed_file",
+      "tags": [
+        "auto-indexed"
+      ],
+      "created_at": "2026-08-09T21:08:45.707139",
+      "size": 76
+    },
+    "f9af06ec-7a3d-46cd-9c99-92818e33030d": {
+      "name": "C:\\Users\\user\\knowledge\\rag\\documents\\sample.txt",
+      "type": "indexed_file",
+      "tags": [
+        "auto-indexed"
+      ],
+      "created_at": "2026-08-09T21:08:45.709655",
+      "size": 62
+    },
+    "398e4317-330b-4b4b-80ae-e38c9ac8f199": {
+      "name": "C:\\Users\\user\\knowledge\\rag\\documents\\security_protocols.txt",
+      "type": "indexed_file",
+      "tags": [
+        "auto-indexed"
+      ],
+      "created_at": "2026-08-09T21:08:45.711983",
+      "size": 74
+    }
+  }
+}

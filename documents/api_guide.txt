@@ -1,0 +1,39 @@
+# API Integration Guide
+
+## Authentication
+All API requests require a Bearer token in the Authorization header:
+```
+Authorization: Bearer <token>
+```
+
+Tokens are obtained via OAuth 2.0 client credentials flow and expire after 1 hour.
+
+## Rate Limiting
+- Standard tier: 1000 requests/minute
+- Premium tier: 10000 requests/minute
+- Enterprise tier: Custom limits available
+
+## Error Codes
+| Code | Meaning |
+|------|---------|
+| 400 | Bad Request - Invalid parameters |
+| 401 | Unauthorized - Missing or invalid token |
+| 403 | Forbidden - Insufficient permissions |
+| 404 | Not Found - Resource does not exist |
+| 429 | Too Many Requests - Rate limit exceeded |
+| 500 | Internal Server Error |
+| 503 | Service Unavailable - Maintenance mode |
+
+## Webhooks
+Webhooks must be registered via the developer portal. Events include:
+- `resource.created`
+- `resource.updated`
+- `resource.deleted`
+- `sync.completed`
+
+## SDKs
+Official SDKs available for:
+- Python (langchain-sdk)
+- Node.js / TypeScript
+- Go
+- Java / Kotlin

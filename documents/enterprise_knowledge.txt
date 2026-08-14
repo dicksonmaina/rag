@@ -1,0 +1,46 @@
+Enterprise Knowledge Base - Core Concepts
+==========================================
+
+## Company Overview
+Our organization specializes in AI-powered enterprise solutions. We build scalable RAG systems, knowledge management platforms, and intelligent automation tools.
+
+## Core Technologies
+- LangChain: Framework for building LLM-powered applications
+- ChromaDB: Open-source vector database for embeddings storage
+- Ollama: Local LLM inference engine
+- Redis: In-memory cache and session store
+- FastAPI: Modern Python web framework for APIs
+
+## Architecture Principles
+1. Microservices-first design
+2. Event-driven communication
+3. Containerized deployment
+4. Zero-trust security model
+5. Observability by default
+
+## Development Standards
+- Python 3.11+ for backend services
+- TypeScript for frontend applications
+- PostgreSQL for relational data
+- Docker Compose for local development
+- GitHub Actions for CI/CD
+
+## Security Policies
+- All secrets stored in Azure Key Vault
+- Managed identities for Azure resources
+- Network security groups restrict traffic
+- Data encrypted at rest and in transit
+- Regular security audits and penetration testing
+
+## Deployment Procedures
+1. Code review required for all changes
+2. Automated testing in CI pipeline
+3. Staging environment validation
+4. Blue-green deployment to production
+5. Post-deployment monitoring for 24 hours
+
+## Support Escalation
+- Level 1: Automated triage and knowledge base
+- Level 2: Senior engineers (24/7 on-call)
+- Level 3: Architecture team and vendor support
+- Critical issues: 15-minute response SLA

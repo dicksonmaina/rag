@@ -1,0 +1,26 @@
+{
+  "C:\\Users\\user\\knowledge\\rag\\documents\\api_guide.txt": {
+    "mtime": 1786120419.2973003,
+    "size": 1014,
+    "chunks": 12,
+    "indexed_at": "2026-08-09T21:08:45.705496"
+  },
+  "C:\\Users\\user\\knowledge\\rag\\documents\\enterprise_knowledge.txt": {
+    "mtime": 1786119961.5738459,
+    "size": 1572,
+    "chunks": 12,
+    "indexed_at": "2026-08-09T21:08:45.708637"
+  },
+  "C:\\Users\\user\\knowledge\\rag\\documents\\sample.txt": {
+    "mtime": 1786112478.0040886,
+    "size": 1262,
+    "chunks": 12,
+    "indexed_at": "2026-08-09T21:08:45.710948"
+  },
+  "C:\\Users\\user\\knowledge\\rag\\documents\\security_protocols.txt": {
+    "mtime": 1786120419.278468,
+    "size": 867,
+    "chunks": 12,
+    "indexed_at": "2026-08-09T21:08:45.713336"
+  }
+}

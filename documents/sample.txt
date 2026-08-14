@@ -1,0 +1,14 @@
+This is a test document about artificial intelligence.
+Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to natural intelligence displayed by humans.
+Machine learning is a subset of AI that enables systems to learn from data.
+Deep learning is a subset of machine learning that uses neural networks with many layers.
+Natural language processing (NLP) is a branch of AI that helps computers understand human language.
+Computer vision is another important branch of AI that enables machines to interpret visual information.
+RAG stands for Retrieval-Augmented Generation, a technique that combines retrieval and generation for better answers.
+Ollama is a tool for running large language models locally on your machine.
+ChromaDB is an open-source vector database used for storing embeddings.
+Sentence transformers are models that convert text into numerical embeddings.
+Redis is an in-memory data structure store used as a database, cache, and message broker.
+Syncthing is a continuous file synchronization program that keeps files in sync across devices.
+Junctions in Windows are directory symbolic links that allow redirecting folders without moving files.
+Obsidian is a note-taking application that works with local markdown files.

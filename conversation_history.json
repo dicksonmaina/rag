@@ -1,0 +1,456 @@
+[
+  {
+    "role": "user",
+    "content": "Hello, what can you do?",
+    "timestamp": "2026-08-07T19:14:16.667831",
+    "metadata": {}
+  },
+  {
+    "role": "assistant",
+    "content": "I don't have any information about that in my knowledge base.",
+    "timestamp": "2026-08-07T19:14:20.545087",
+    "metadata": {}
+  },
+  {
+    "role": "user",
+    "content": "What is RAG?",
+    "timestamp": "2026-08-07T19:16:07.250295",
+    "metadata": {}
+  },
+  {
+    "role": "user",
+    "content": "What is RAG?",
+    "timestamp": "2026-08-07T19:17:29.096425",
+    "metadata": {}
+  },
+  {
+    "role": "user",
+    "content": "What is RAG?",
+    "timestamp": "2026-08-07T19:18:30.043323",
+    "metadata": {}
+  },
+  {
+    "role": "user",
+    "content": "What is RAG?",
+    "timestamp": "2026-08-07T19:21:20.348199",
+    "metadata": {}
+  },
+  {
+    "role": "user",
+    "content": "What is RAG?",
+    "timestamp": "2026-08-07T19:23:25.424072",
+    "metadata": {}
+  },
+  {
+    "role": "user",
+    "content": "What is RAG?",
+    "timestamp": "2026-08-07T19:25:23.273407",
+    "metadata": {}
+  },
+  {
+    "role": "assistant",
+    "content": "Retrieval-Augmented Generation",
+    "timestamp": "2026-08-07T19:25:29.476414",
+    "metadata": {
+      "sources": [
+        {
+          "source": "C:\\Users\\user\\RAG\\documents\\sample.txt",
+          "score": 0.8084293007850647,
+          "content": "Computer vision is another important branch of AI that enables machines to interpret visual information.\nRAG stands for Retrieval-Augmented Generation, a technique that combines retrieval and generati..."
+        },
+        {
+          "source": "C:\\Users\\user\\RAG\\documents\\sample.txt",
+          "score": 0.8084293007850647,
+          "content": "Computer vision is another important branch of AI that enables machines to interpret visual information.\nRAG stands for Retrieval-Augmented Generation, a technique that combines retrieval and generati..."
+        },
+        {
+          "source": "C:\\Users\\user\\RAG\\documents\\sample.txt",
+          "score": 1.1702371835708618,
+          "content": "Redis is an in-memory data structure store used as a database, cache, and message broker.\nSyncthing is a continuous file synchronization program that keeps files in sync across devices.\nJunctions in W..."
+        }
+      ]
+    }
+  },
+  {
+    "role": "user",
+    "content": "What are our deployment procedures?",
+    "timestamp": "2026-08-07T19:26:58.051534",
+    "metadata": {}
+  },
+  {
+    "role": "assistant",
+    "content": "Code review, automated testing in CI pipeline, staging environment validation, Blue-green deployment to production, post-deployment monitoring for 24 hours.",
+    "timestamp": "2026-08-07T19:27:08.426102",
+    "metadata": {
+      "sources": [
+        {
+          "source": "C:\\Users\\user\\RAG\\documents\\enterprise_knowledge.txt",
+          "score": 0.5462037920951843,
+          "content": "## Deployment Procedures\n1. Code review required for all changes\n2. Automated testing in CI pipeline\n3. Staging environment validation\n4. Blue-green deployment to production\n5. Post-deployment monitor..."
+        },
+        {
+          "source": "C:\\Users\\user\\RAG\\documents\\enterprise_knowledge.txt",
+          "score": 0.9114986658096313,
+          "content": "## Development Standards\n- Python 3.11+ for backend services\n- TypeScript for frontend applications\n- PostgreSQL for relational data\n- Docker Compose for local development\n- GitHub Actions for CI/CD\n\n..."
+        },
+        {
+          "source": "C:\\Users\\user\\RAG\\documents\\enterprise_knowledge.txt",
+          "score": 1.0509079694747925,
+          "content": "## Core Technologies\n- LangChain: Framework for building LLM-powered applications\n- ChromaDB: Open-source vector database for embeddings storage\n- Ollama: Local LLM inference engine\n- Redis: In-memory..."
+        }
+      ]
+    }
+  },
+  {
+    "role": "user",
+    "content": "What are our security protocols?",
+    "timestamp": "2026-08-07T19:35:24.463789",
+    "metadata": {}
+  },
+  {
+    "role": "assistant",
+    "content": "Access control, role-based access control (RBAC) enforced at all layers. AES-256 encryption for data at rest, TLS 1.3 for data in transit. Session timeout after 15 minutes of inactivity. Session timeout policy enforcement.\nData protection requires PII detection and masking, regular data retention policy enforcement. Regular security audits and penetration testing for compliance and risk management.\nIn addition to RBAC and AES-256 encryption, our security protocols include TLS 1.3 for data in transit, managed identities for Azure resources, network security groups for traffic control, and Docker Compose for local development using GitHub Actions.\nWe adhere to SOC 2 Type II and GDPR compliance standards for EU data subjects and HIPAA ready healthcare workloads with regular third-party security assessments.\nOur deployment procedures include automated alerting via Azure Monitor for detection, containment in a managed identity system at Azure resources for network isolation and access revocation, and regular recovery from restored backups.",
+    "timestamp": "2026-08-07T19:35:52.043292",
+    "metadata": {
+      "sources": [
+        {
+          "source": "C:\\Users\\user\\RAG\\documents\\security_protocols.txt",
+          "score": 0.5805145502090454,
+          "content": "# Security Protocols\n\n## Access Control\n- Role-based access control (RBAC) enforced at all layers\n- Multi-factor authentication required for admin accounts\n- Just-in-time access for privileged operati..."
+        },
+        {
+          "source": "C:\\Users\\user\\RAG\\documents\\enterprise_knowledge.txt",
+          "score": 0.742397129535675,
+          "content": "## Development Standards\n- Python 3.11+ for backend services\n- TypeScript for frontend applications\n- PostgreSQL for relational data\n- Docker Compose for local development\n- GitHub Actions for CI/CD\n\n..."
+        },
+        {
+          "source": "C:\\Users\\user\\RAG\\documents\\security_protocols.txt",
+          "score": 0.8915507793426514,
+          "content": "## Incident Response\n1. Detection: Automated alerting via Azure Monitor\n2. Containment: Network isolation and access revocation\n3. Eradication: Root cause analysis and patch deployment\n4. Recovery: Ve..."
+        }
+      ]
+    }
+  },
+  {
+    "role": "user",
+    "content": "test",
+    "timestamp": "2026-08-07T23:05:24.335961",
+    "metadata": {}
+  },
+  {
+    "role": "assistant",
+    "content": "Artificial intelligence (AI) refers to machines that can perform tasks like recognizing patterns and making decisions based on those patterns. In the context you provided, it is used to improve our current capabilities by enabling systems to learn from data and make predictions without human input. This capability allows us to be more efficient in tasks such as data analysis, predictive modeling, natural language processing, and machine translation.\nIt's also a type of AI that enables systems to mimic the way humans think and learn from experience. The field of artificial intelligence is constantly evolving with new technologies and techniques being developed to improve upon this capability.",
+    "timestamp": "2026-08-07T23:05:59.422657",
+    "metadata": {
+      "sources": [
+        {
+          "source": "C:\\Users\\user\\RAG\\documents\\sample.txt",
+          "score": 0.7428885102272034,
+          "content": "This is a test document about artificial intelligence.\nArtificial intelligence (AI) is intelligence demonstrated by machines, as opposed to natural intelligence displayed by humans.\nMachine learning i..."
+        },
+        {
+          "source": "C:\\Users\\user\\RAG\\documents\\sample.txt",
+          "score": 0.7428885102272034,
+          "content": "This is a test document about artificial intelligence.\nArtificial intelligence (AI) is intelligence demonstrated by machines, as opposed to natural intelligence displayed by humans.\nMachine learning i..."
+        },
+        {
+          "source": "C:\\Users\\user\\RAG\\documents\\security_protocols.txt",
+          "score": 1.004288673400879,
+          "content": "## Incident Response\n1. Detection: Automated alerting via Azure Monitor\n2. Containment: Network isolation and access revocation\n3. Eradication: Root cause analysis and patch deployment\n4. Recovery: Ve..."
+        },
+        {
+          "source": "C:\\Users\\user\\RAG\\documents\\enterprise_knowledge.txt",
+          "score": 1.0064387321472168,
+          "content": "## Deployment Procedures\n1. Code review required for all changes\n2. Automated testing in CI pipeline\n3. Staging environment validation\n4. Blue-green deployment to production\n5. Post-deployment monitor..."
+        },
+        {
+          "source": "C:\\Users\\user\\RAG\\documents\\sample.txt",
+          "score": 1.0260285139083862,
+          "content": "Computer vision is another important branch of AI that enables machines to interpret visual information.\nRAG stands for Retrieval-Augmented Generation, a technique that combines retrieval and generati..."
+        }
+      ]
+    }
+  },
+  {
+    "role": "user",
+    "content": "What is the enterprise knowledge base?",
+    "timestamp": "2026-08-08T13:55:01.886414",
+    "metadata": {}
+  },
+  {
+    "role": "assistant",
+    "content": "The knowledge base provided in the context refers to an organization specialized in AI-powered enterprises. It builds scalable RAG systems, knowledge management platforms, and intelligent automation tools. The knowledge is about machines that can perform tasks like recognizing patterns and making decisions based on those patterns. This capability helps improve current capabilities by enabling systems to learn from data and make predictions without human input. It's also a type of AI that enables systems to mimic the way humans think and learn from experience, constantly evolving with new technologies and techniques being developed to improve upon this capability.",
+    "timestamp": "2026-08-08T13:55:23.204107",
+    "metadata": {
+      "sources": [
+        {
+          "source": "C:\\Users\\user\\RAG\\documents\\enterprise_knowledge.txt",
+          "score": 0.44250908493995667,
+          "content": "Enterprise Knowledge Base - Core Concepts\n==========================================\n\n## Company Overview\nOur organization specializes in AI-powered enterprise solutions. We build scalable RAG systems..."
+        },
+        {
+          "source": "C:\\Users\\user\\RAG\\documents\\sample.txt",
+          "score": 0.9393449425697327,
+          "content": "This is a test document about artificial intelligence.\nArtificial intelligence (AI) is intelligence demonstrated by machines, as opposed to natural intelligence displayed by humans.\nMachine learning i..."
+        },
+        {
+          "source": "C:\\Users\\user\\RAG\\documents\\sample.txt",
+          "score": 0.9393449425697327,
+          "content": "This is a test document about artificial intelligence.\nArtificial intelligence (AI) is intelligence demonstrated by machines, as opposed to natural intelligence displayed by humans.\nMachine learning i..."
+        }
+      ]
+    }
+  },
+  {
+    "role": "user",
+    "content": "enterprise knowledge base",
+    "timestamp": "2026-08-08T13:56:17.864446",
+    "metadata": {}
+  },
+  {
+    "role": "assistant",
+    "content": "The Enterprise Knowledge Base (EKB) is an organization specializing in AI-powered enterprises. This company builds scalable RAG systems, knowledge management platforms, and intelligent automation tools. The goal is to build a scalable, efficient platform for businesses that want to automate tasks with AI technologies. It's about building systems that recognize patterns and make predictions based on those patterns, improving capabilities over time by enabling machines to learn from data without human input. The EKB builds knowledge management platforms and intelligently automates business processes.\nThe key capabilities of the EKB include scalable RAG systems, knowledge management platforms, intelligent automation tools, and a variety of other services aimed at enhancing operations and efficiency in businesses that operate with AI technologies.\nIt's also about building an organization that specializes in AI-powered enterprises. This is different from traditional IT companies that build complex IT infrastructure to support business operations. It's about providing solutions that help businesses stay up-to-date with the latest technology advancements, optimize resources and processes for maximum productivity and performance.\nThe EKB builds knowledge management platforms to help organizations manage their information flows and access to data effectively. It also offers intelligent automation tools to automate repetitive tasks and improve efficiency across all levels of the business operations.",
+    "timestamp": "2026-08-08T13:56:31.440864",
+    "metadata": {
+      "sources": [
+        {
+          "source": "C:\\Users\\user\\RAG\\documents\\enterprise_knowledge.txt",
+          "score": 0.42667439579963684,
+          "content": "Enterprise Knowledge Base - Core Concepts\n==========================================\n\n## Company Overview\nOur organization specializes in AI-powered enterprise solutions. We build scalable RAG systems..."
+        },
+        {
+          "source": "C:\\Users\\user\\RAG\\documents\\sample.txt",
+          "score": 1.0151801109313965,
+          "content": "This is a test document about artificial intelligence.\nArtificial intelligence (AI) is intelligence demonstrated by machines, as opposed to natural intelligence displayed by humans.\nMachine learning i..."
+        },
+        {
+          "source": "C:\\Users\\user\\RAG\\documents\\sample.txt",
+          "score": 1.0151801109313965,
+          "content": "This is a test document about artificial intelligence.\nArtificial intelligence (AI) is intelligence demonstrated by machines, as opposed to natural intelligence displayed by humans.\nMachine learning i..."
+        }
+      ]
+    }
+  },
+  {
+    "role": "user",
+    "content": "test",
+    "timestamp": "2026-08-08T14:58:43.094428",
+    "metadata": {}
+  },
+  {
+    "role": "assistant",
+    "content": "Machine learning, deep learning, natural language processing, SOC 2 Type II certified, GDPR compliant, HIPAA ready for healthcare workloads, Regular third-party security assessments.",
+    "timestamp": "2026-08-08T14:58:59.798418",
+    "metadata": {
+      "sources": [
+        {
+          "source": "C:\\Users\\user\\RAG\\documents\\sample.txt",
+          "score": 0.7428885102272034,
+          "content": "This is a test document about artificial intelligence.\nArtificial intelligence (AI) is intelligence demonstrated by machines, as opposed to natural intelligence displayed by humans.\nMachine learning i..."
+        },
+        {
+          "source": "C:\\Users\\user\\RAG\\documents\\sample.txt",
+          "score": 0.7428885102272034,
+          "content": "This is a test document about artificial intelligence.\nArtificial intelligence (AI) is intelligence demonstrated by machines, as opposed to natural intelligence displayed by humans.\nMachine learning i..."
+        },
+        {
+          "source": "C:\\Users\\user\\RAG\\documents\\security_protocols.txt",
+          "score": 1.004288673400879,
+          "content": "## Incident Response\n1. Detection: Automated alerting via Azure Monitor\n2. Containment: Network isolation and access revocation\n3. Eradication: Root cause analysis and patch deployment\n4. Recovery: Ve..."
+        },
+        {
+          "source": "C:\\Users\\user\\RAG\\documents\\enterprise_knowledge.txt",
+          "score": 1.0064387321472168,
+          "content": "## Deployment Procedures\n1. Code review required for all changes\n2. Automated testing in CI pipeline\n3. Staging environment validation\n4. Blue-green deployment to production\n5. Post-deployment monitor..."
+        },
+        {
+          "source": "C:\\Users\\user\\RAG\\documents\\sample.txt",
+          "score": 1.0260285139083862,
+          "content": "Computer vision is another important branch of AI that enables machines to interpret visual information.\nRAG stands for Retrieval-Augmented Generation, a technique that combines retrieval and generati..."
+        }
+      ]
+    }
+  },
+  {
+    "role": "user",
+    "content": "CPA",
+    "timestamp": "2026-08-08T15:21:43.527337",
+    "metadata": {}
+  },
+  {
+    "role": "user",
+    "content": "test",
+    "timestamp": "2026-08-09T20:26:57.029548",
+    "metadata": {}
+  },
+  {
+    "role": "assistant",
+    "content": "Machine learning",
+    "timestamp": "2026-08-09T20:27:07.544292",
+    "metadata": {
+      "sources": [
+        {
+          "source": "C:\\Users\\user\\knowledge\\rag\\documents\\sample.txt",
+          "score": 0.7428885102272034,
+          "content": "This is a test document about artificial intelligence.\nArtificial intelligence (AI) is intelligence demonstrated by machines, as opposed to natural intelligence displayed by humans.\nMachine learning i..."
+        },
+        {
+          "source": "C:\\Users\\user\\Documents\\ObsidianVault\\04-AI-ML-Fundamentals\\ai_primer.md",
+          "score": 0.7428885102272034,
+          "content": "This is a test document about artificial intelligence.\nArtificial intelligence (AI) is intelligence demonstrated by machines, as opposed to natural intelligence displayed by humans.\nMachine learning i..."
+        },
+        {
+          "source": "C:\\Users\\user\\knowledge\\rag\\documents\\security_protocols.txt",
+          "score": 1.004288673400879,
+          "content": "## Incident Response\n1. Detection: Automated alerting via Azure Monitor\n2. Containment: Network isolation and access revocation\n3. Eradication: Root cause analysis and patch deployment\n4. Recovery: Ve..."
+        }
+      ]
+    }
+  },
+  {
+    "role": "user",
+    "content": "API integration guide",
+    "timestamp": "2026-08-09T20:39:51.938148",
+    "metadata": {}
+  },
+  {
+    "role": "user",
+    "content": "test",
+    "timestamp": "2026-08-09T20:46:51.220209",
+    "metadata": {}
+  },
+  {
+    "role": "assistant",
+    "content": "Machine Learning",
+    "timestamp": "2026-08-09T20:47:01.787482",
+    "metadata": {
+      "sources": [
+        {
+          "source": "C:\\Users\\user\\knowledge\\rag\\documents\\sample.txt",
+          "score": 0.7428885102272034,
+          "content": "This is a test document about artificial intelligence.\nArtificial intelligence (AI) is intelligence demonstrated by machines, as opposed to natural intelligence displayed by humans.\nMachine learning i..."
+        },
+        {
+          "source": "C:\\Users\\user\\Documents\\ObsidianVault\\04-AI-ML-Fundamentals\\ai_primer.md",
+          "score": 0.7428885102272034,
+          "content": "This is a test document about artificial intelligence.\nArtificial intelligence (AI) is intelligence demonstrated by machines, as opposed to natural intelligence displayed by humans.\nMachine learning i..."
+        },
+        {
+          "source": "C:\\Users\\user\\Documents\\ObsidianVault\\03-Security\\security_protocols.md",
+          "score": 1.004288673400879,
+          "content": "## Incident Response\n1. Detection: Automated alerting via Azure Monitor\n2. Containment: Network isolation and access revocation\n3. Eradication: Root cause analysis and patch deployment\n4. Recovery: Ve..."
+        }
+      ]
+    }
+  },
+  {
+    "role": "user",
+    "content": "security protocols",
+    "timestamp": "2026-08-09T21:07:01.891739",
+    "metadata": {}
+  },
+  {
+    "role": "assistant",
+    "content": "Access Control, Data Protection, Development Standards, Security Policies.",
+    "timestamp": "2026-08-09T21:07:13.493547",
+    "metadata": {
+      "sources": [
+        {
+          "source": "C:\\Users\\user\\knowledge\\rag\\documents\\security_protocols.txt",
+          "score": 0.5177594423294067,
+          "content": "# Security Protocols\n\n## Access Control\n- Role-based access control (RBAC) enforced at all layers\n- Multi-factor authentication required for admin accounts\n- Just-in-time access for privileged operati..."
+        },
+        {
+          "source": "C:\\Users\\user\\Documents\\ObsidianVault\\03-Security\\security_protocols.md",
+          "score": 0.5177594423294067,
+          "content": "# Security Protocols\n\n## Access Control\n- Role-based access control (RBAC) enforced at all layers\n- Multi-factor authentication required for admin accounts\n- Just-in-time access for privileged operati..."
+        },
+        {
+          "source": "C:\\Users\\user\\Documents\\ObsidianVault\\02-Enterprise-Knowledge\\enterprise_knowledge.md",
+          "score": 0.7648263573646545,
+          "content": "## Development Standards\n- Python 3.11+ for backend services\n- TypeScript for frontend applications\n- PostgreSQL for relational data\n- Docker Compose for local development\n- GitHub Actions for CI/CD\n\n..."
+        }
+      ]
+    }
+  },
+  {
+    "role": "user",
+    "content": "ping",
+    "timestamp": "2026-08-09T22:53:26.055226",
+    "metadata": {}
+  },
+  {
+    "role": "assistant",
+    "content": "401",
+    "timestamp": "2026-08-09T22:53:52.420467",
+    "metadata": {
+      "sources": [
+        {
+          "source": "C:\\Users\\user\\Documents\\ObsidianVault\\01-API-Integration\\api_guide.md",
+          "score": 1.0651302337646484,
+          "content": "## Error Codes\n| Code | Meaning |\n|------|---------|\n| 400 | Bad Request - Invalid parameters |\n| 401 | Unauthorized - Missing or invalid token |\n| 403 | Forbidden - Insufficient permissions |\n| 404 |..."
+        }
+      ]
+    }
+  },
+  {
+    "role": "user",
+    "content": "ping",
+    "timestamp": "2026-08-09T22:54:58.422561",
+    "metadata": {}
+  },
+  {
+    "role": "assistant",
+    "content": "You're making a request to send information. The response is from my knowledge base and tools like Google search engine, Reddit subreddit, etc., but it's not in the context you provided. It seems your message was incomplete. Please provide more details so I can assist better.",
+    "timestamp": "2026-08-09T22:55:09.777696",
+    "metadata": {
+      "sources": [
+        {
+          "source": "C:\\Users\\user\\Documents\\ObsidianVault\\01-API-Integration\\api_guide.md",
+          "score": 1.0651302337646484,
+          "content": "## Error Codes\n| Code | Meaning |\n|------|---------|\n| 400 | Bad Request - Invalid parameters |\n| 401 | Unauthorized - Missing or invalid token |\n| 403 | Forbidden - Insufficient permissions |\n| 404 |..."
+        }
+      ]
+    }
+  },
+  {
+    "role": "user",
+    "content": "ping",
+    "timestamp": "2026-08-11T09:20:07.369536",
+    "metadata": {}
+  },
+  {
+    "role": "assistant",
+    "content": "The code for \"ping\" is 408. This means you are making a request to send information that cannot be sent or received, which falls under the category of \"Unprocessable Entity\" codes in the context provided. Please provide more details so I can assist better.",
+    "timestamp": "2026-08-11T09:20:31.447714",
+    "metadata": {
+      "sources": [
+        {
+          "source": "C:\\Users\\user\\Documents\\ObsidianVault\\01-API-Integration\\api_guide.md",
+          "score": 1.0651302337646484,
+          "content": "## Error Codes\n| Code | Meaning |\n|------|---------|\n| 400 | Bad Request - Invalid parameters |\n| 401 | Unauthorized - Missing or invalid token |\n| 403 | Forbidden - Insufficient permissions |\n| 404 |..."
+        }
+      ]
+    }
+  },
+  {
+    "role": "user",
+    "content": "ping",
+    "timestamp": "2026-08-11T09:27:51.106381",
+    "metadata": {}
+  },
+  {
+    "role": "assistant",
+    "content": "The code for \"ping\" is 408. This means you are making a request to send information that cannot be sent or received, which falls under the category of \"Unprocessable Entity\" codes in the context provided. Please provide more details so I can assist better.",
+    "timestamp": "2026-08-11T09:28:04.968858",
+    "metadata": {
+      "sources": [
+        {
+          "source": "C:\\Users\\user\\Documents\\ObsidianVault\\01-API-Integration\\api_guide.md",
+          "score": 1.0651302337646484,
+          "content": "## Error Codes\n| Code | Meaning |\n|------|---------|\n| 400 | Bad Request - Invalid parameters |\n| 401 | Unauthorized - Missing or invalid token |\n| 403 | Forbidden - Insufficient permissions |\n| 404 |..."
+        }
+      ]
+    }
+  }
+]
